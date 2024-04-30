@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qs-09</title>
+</head>
+<body>
+    <h1>Formulir Registrasi</h1>
+    <form action="/formulir">
+        <div>
+            <input type="text" name="nama_depan" placeholder="Nama Depan">
+            <input type="text" name="nama_belakang" placeholder="Nama Belakang">
+        </div>
+        <div>
+            <label for="gender">Jenis Kelamin: <select name="gender" id="gender">
+                <option value="lelaki">Lelaki</option>
+                <option value="perempuan">Perempuan</option>
+            </select></label>
+        </div>
+        <div>
+            Apakah kamu setuju dengan ketentuan ini? <input type="checkbox" name="setuju" id="setuju"> <label for="setuju">Ya, setuju</label>
+        </div>
+        <div>
+            <input type="submit" value="Kirim">
+        </div>
+    </form>
+</body>
+</html>

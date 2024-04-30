@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Mendefinisikan karakter set dokumen HTML -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mendefinisikan tampilan viewport untuk perangkat mobile -->
+    <title>qs-07</title> <!-- Menentukan judul halaman web -->
+</head>
+<body>
+    <table border="1"> <!-- Tabel dengan border 1 -->
+        <caption>Tabel dengan merged cells</caption> <!-- Judul tabel -->
+        <thead> <!-- Bagian head tabel -->
+            <tr> <!-- Baris tabel -->
+                <th rowspan="2"></th> <!-- Header kolom dengan rowspan 2, yang berarti header ini akan melebar 2 baris -->
+                <th colspan="2">Rata-rata</th> <!-- Header kolom dengan colspan 2, yang berarti header ini akan melebar 2 kolom -->
+                <th rowspan="2">Bermata Merah</th> <!-- Header kolom dengan rowspan 2, yang berarti header ini akan melebar 2 baris -->
+            </tr>
+            <tr> <!-- Baris tabel -->
+                <th>Tinggi</th> <!-- Header kolom tinggi -->
+                <th>Berat</th> <!-- Header kolom berat -->
+            </tr>
+        </thead>
+        <tbody> <!-- Bagian body tabel -->
+            <tr> <!-- Baris tabel -->
+                <td>Lelaki</td> <!-- Data lelaki pada kolom pertama -->
+                <td>170</td> <!-- Data rata-rata tinggi pada kolom kedua -->
+                <td>60</td> <!-- Data rata-rata berat pada kolom ketiga -->
+                <td>40%</td> <!-- Data persentase bermata merah pada kolom keempat -->
+            </tr>
+            <tr> <!-- Baris tabel -->
+                <td>Perempuan</td> <!-- Data perempuan pada kolom pertama -->
+                <td>160</td> <!-- Data rata-rata tinggi pada kolom kedua -->
+                <td>50</td> <!-- Data rata-rata berat pada kolom ketiga -->
+                <td>30%</td> <!-- Data persentase bermata merah pada kolom keempat -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
