@@ -1,0 +1,14 @@
+/* Mengatur warna teks elemen <p> di dalam elemen <div> menjadi hijau */
+div p {
+    color: green;
+}
+
+/* Mengatur warna teks elemen <h3> yang berada di dalam elemen dengan kelas "tes" menjadi merah */
+.tes > h3 {
+    color: red;
+}
+
+/* Mengatur warna teks elemen <p> yang berada setelah elemen <h3> di dalam elemen dengan atribut class="attr" menjadi hijau */
+div[class="attr"] h3 + p {
+    color: green;
+}
